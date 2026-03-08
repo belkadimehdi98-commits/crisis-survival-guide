@@ -268,3 +268,104 @@ transition:0.2s;
 .review-nav button:hover{
 background:#ff3b30;
 }
+/* LEGAL PAGES */
+
+body{
+background:#0b0f14;
+color:#e5e7eb;
+}
+
+main{
+max-width:900px;
+margin:auto;
+padding:100px 20px;
+line-height:1.7;
+}
+
+main h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+main h2{
+margin-top:40px;
+margin-bottom:10px;
+color:#ff4d4d;
+font-size:22px;
+}
+
+main p{
+color:#cbd5e1;
+font-size:17px;
+}
+
+main ul{
+margin-left:20px;
+color:#cbd5e1;
+}
+
+main a{
+color:#ff4d4d;
+text-decoration:none;
+}
+
+main a:hover{
+text-decoration:underline;
+}
+/* FOOTER LINKS */
+
+footer a{
+color:#94a3b8;
+text-decoration:none;
+margin:0 6px;
+}
+
+footer a:hover{
+color:#ff4d4d;
+}
+/* MOBILE FIX */
+
+@media (max-width: 768px){
+
+.container{
+flex-direction:column;
+text-align:center;
+padding:40px 20px;
+}
+
+.hero{
+min-height:auto;
+padding-top:40px;
+}
+
+.hero-text h1{
+font-size:32px;
+}
+
+.subtitle{
+font-size:18px;
+}
+
+.description{
+font-size:16px;
+}
+
+.hero-image img{
+width:100%;
+max-width:320px;
+margin-top:30px;
+}
+
+.buy-button{
+width:100%;
+max-width:320px;
+margin:auto;
+display:block;
+}
+
+.testimonial-card{
+min-width:280px;
+max-width:280px;
+}
+
+}
