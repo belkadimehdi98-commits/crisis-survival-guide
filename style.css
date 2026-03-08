@@ -357,10 +357,11 @@ margin-top:30px;
 }
 
 .buy-button{
-width:100%;
-max-width:340px;
+display:inline-block;
+max-width:280px;
+width:auto;
 margin:20px auto;
-display:block;
+padding:16px 24px;
 text-align:center;
 }
 
